@@ -1,0 +1,11 @@
+{
+    "name": "PhotonUnityNetworking.Demos",
+    "references": [
+        "PhotonRealtime",
+        "PhotonUnityNetworking",
+        "PhotonUnityNetworking.Utilities",
+        "PlayFab"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": []
+}

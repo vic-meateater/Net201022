@@ -1,0 +1,169 @@
+{
+  "CatalogVersion": "TestCatalog",
+  "Catalog": [
+    {
+      "ItemId": "hws",
+      "ItemClass": "sword",
+      "CatalogVersion": "TestCatalog",
+      "DisplayName": "Human Wooden Sword",
+      "Description": "Your first sword",
+      "VirtualCurrencyPrices": {
+        "RM": 10,
+        "CO": 10
+      },
+      "RealCurrencyPrices": {},
+      "Tags": [
+        "sword",
+        "weapon",
+        "wooden"
+      ],
+      "CustomData": "{\"strong\":\"2\"}",
+      "Consumable": {
+        "UsageCount": null,
+        "UsagePeriod": null,
+        "UsagePeriodGroup": null
+      },
+      "Container": null,
+      "Bundle": null,
+      "CanBecomeCharacter": true,
+      "IsStackable": false,
+      "IsTradable": true,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": true,
+      "InitialLimitedEditionCount": 1,
+      "ActivatedMembership": null
+    },
+    {
+      "ItemId": "ews",
+      "ItemClass": "staff",
+      "CatalogVersion": "TestCatalog",
+      "DisplayName": "Elven Wooden Staff",
+      "Description": "Your first staff",
+      "VirtualCurrencyPrices": {
+        "RM": 10,
+        "CO": 10
+      },
+      "RealCurrencyPrices": {},
+      "Tags": [
+        "staff",
+        "weapon",
+        "wooden"
+      ],
+      "CustomData": "{\"magic\":\"2\"}",
+      "Consumable": {
+        "UsageCount": null,
+        "UsagePeriod": null,
+        "UsagePeriodGroup": null
+      },
+      "Container": null,
+      "Bundle": null,
+      "CanBecomeCharacter": true,
+      "IsStackable": false,
+      "IsTradable": true,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": true,
+      "InitialLimitedEditionCount": 1,
+      "ActivatedMembership": null
+    },
+    {
+      "ItemId": "HumanWarriorStart",
+      "ItemClass": "warriorpack",
+      "CatalogVersion": "TestCatalog",
+      "DisplayName": "Human Warrior Start",
+      "Description": null,
+      "VirtualCurrencyPrices": {},
+      "RealCurrencyPrices": {},
+      "Tags": [
+        "start",
+        "pack",
+        "warrior"
+      ],
+      "CustomData": null,
+      "Consumable": {
+        "UsageCount": 1,
+        "UsagePeriod": null,
+        "UsagePeriodGroup": null
+      },
+      "Container": null,
+      "Bundle": {
+        "BundledItems": [
+          "hws"
+        ],
+        "BundledResultTables": [],
+        "BundledVirtualCurrencies": null
+      },
+      "CanBecomeCharacter": false,
+      "IsStackable": false,
+      "IsTradable": false,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": false,
+      "InitialLimitedEditionCount": 0,
+      "ActivatedMembership": null
+    },
+    {
+      "ItemId": "ElvenMagicianStart",
+      "ItemClass": "magicianpack",
+      "CatalogVersion": "TestCatalog",
+      "DisplayName": "Elven Magician Start",
+      "Description": null,
+      "VirtualCurrencyPrices": {},
+      "RealCurrencyPrices": {},
+      "Tags": [
+        "start",
+        "pack",
+        "magician"
+      ],
+      "CustomData": null,
+      "Consumable": {
+        "UsageCount": 1,
+        "UsagePeriod": null,
+        "UsagePeriodGroup": null
+      },
+      "Container": null,
+      "Bundle": {
+        "BundledItems": [
+          "ews"
+        ],
+        "BundledResultTables": [],
+        "BundledVirtualCurrencies": null
+      },
+      "CanBecomeCharacter": false,
+      "IsStackable": false,
+      "IsTradable": false,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": false,
+      "InitialLimitedEditionCount": 0,
+      "ActivatedMembership": null
+    },
+    {
+      "ItemId": "shp",
+      "ItemClass": "potions",
+      "CatalogVersion": "TestCatalog",
+      "DisplayName": "Small Healing Potion",
+      "Description": "Heals you by 30hp within 15 sec.",
+      "VirtualCurrencyPrices": {
+        "CO": 100,
+        "AC": 1,
+        "RM": 20
+      },
+      "RealCurrencyPrices": {},
+      "Tags": [],
+      "CustomData": "{\"healRate\":\"30\"}",
+      "Consumable": {
+        "UsageCount": null,
+        "UsagePeriod": null,
+        "UsagePeriodGroup": null
+      },
+      "Container": null,
+      "Bundle": null,
+      "CanBecomeCharacter": false,
+      "IsStackable": false,
+      "IsTradable": true,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": false,
+      "InitialLimitedEditionCount": 0,
+      "ActivatedMembership": null
+    }
+  ],
+  "DropTables": []
+}
